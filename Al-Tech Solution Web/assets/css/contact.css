@@ -1,0 +1,45 @@
+@import url("main.css");
+@import url("noscript.css")
+
+;wrapper{
+    padding: 40px 30px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper .content1{
+    display: relative;
+    gap: 20px;
+    row-gap: 20px;
+}
+.wrapper .content1 h2{
+    text-align: center;
+    justify-content: center;
+}
+.inputBox{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.wrapper .content1 .inputBox{
+    row-gap: 30px;
+    width: 100%;
+
+    
+}
+
+.inputBox textarea{
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333;
+    min-height: 220px;
+    margin-bottom: 10px;
+
+
+}
